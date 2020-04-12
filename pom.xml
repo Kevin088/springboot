@@ -17,7 +17,7 @@
     <properties>
         <java.version>1.8</java.version>
 <!--        配置了数据库驱动版本-->
-        <mysql.version>5.1.10</mysql.version>
+        <mysql.version>8.0.17</mysql.version>
     </properties>
 
     <dependencies>
@@ -47,6 +47,16 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.9</version>
         </dependency>
     </dependencies>
 
